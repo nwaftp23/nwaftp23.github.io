@@ -2,20 +2,20 @@
   type: map
   contents:
     - name: Full Name
-      value: Lucas Berry 
+      value: Lucas Berry
     - name: Languages
-      value: English, French 
+      value: English, French
 
 - title: Education
   type: time_table
   contents:
     - title: Doctorate of Philosophy (Computer Science)
       institution: McGill University, Montreal, Canada
-      year: December 2024 
+      year: December 2024
     - title: Masters of Arts (Mathematics)
       institution: Concordia University, Montreal, Canada
       year: December 2016
-    - title: Bachelor of Arts (Major Mathematics & Minor Psychology) 
+    - title: Bachelor of Arts (Major Mathematics & Minor Psychology)
       institution: University of British Columbia, Vancouver, Canada
       year: April 2013
 
@@ -24,15 +24,15 @@
   contents:
     - title: Founding Partner
       institution: Birds of Color Algorithms (Algorithmic Trading Startup)
-      year: 2017 - Present
+      year: 2019 - 2024
     - title: Research Assistant
       institution: McGill University (Department of Family Medicine)
-      year: 2017 – 2022 
+      year: 2017 – 2022
     - title: Founding Partner
-      institution: Black Eagle Algorithms S.E.N.C. (Cryptocurrency Arbitrage) 
+      institution: Black Eagle Algorithms S.E.N.C. (Cryptocurrency Arbitrage)
       year: 2018 – 2019
     - title: Course Lecturer
-      institution: Concordia University & HEC Montreal (Department of Mathematics) 
+      institution: Concordia University & HEC Montreal (Department of Mathematics)
       year: 2015 – 2016
 
 - title: Community Involvement
@@ -41,14 +41,14 @@
     - title: Mentor
       institution: Tyndale St. Georges & UBC
       year: 2012 - 2017
-    - title: President 
+    - title: President
       institution: Math & Stat Graduate Student Association, Concordia
       year: 2014 - 2015
 
 - title: Additional Skills
   type: nested_list
   contents:
-    - title: Coding 
+    - title: Coding
       items:
         - Python (Numpy, Pytorch, Matplotlib, Pandas, Scipy)
         - Web Scraping (Beautiful Soup, Selenium)
@@ -56,16 +56,16 @@
         - Matlab
         - Julia
         - Racket
-    - title: Cetifications  
+    - title: Cetifications
       items:
         - Passed 3 Actuarial Exams (P, FM, MFE)
-    - title: Reviewer  
+    - title: Reviewer
       items:
         - NeurIPS (2023, 2024)
         - ICML (2023, 2024)
         - CoRL (2018)
         - IROS (2018, 2023)
-        - ICRA (2024) 
+        - ICRA (2024)
 
 - title: Other Interests
   type: list
