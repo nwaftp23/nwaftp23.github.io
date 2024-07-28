@@ -2,24 +2,20 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
-  align: right
-  image: prof_pic.jpg
+  align: right 
+  image: profile_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
-news: true # includes a list of news items
+news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+I’m a PhD student at McGill University, working under the supervision of [Professor David Meger](https://scholar.google.ca/citations?user=gFwEytkAAAAJ&hl=en). My research interests include Uncertainty Estimation, Normalizing Flows, and Diffusion Models.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Prior to joining McGill, I studied Mathematics with a specialization in Actuarial Sciences at Concordia University, where I was guided by [Professor Jose Garrido](https://scholar.google.com/citations?user=cYhIv9IAAAAJ&hl=en&oi=ao). My Master’s thesis, titled [Hybrid Hidden Markov Model and Generalized Linear Model for Auto Insurance Premiums](https://spectrum.library.concordia.ca/id/eprint/982074/), explored estimating a driver’s latent driving ability using standard insurance covariates to more accurately predict claims.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+In addition to my academic pursuits, I have co-founded two companies: Birds of Color Algorithms and Black Eagle Algorithms. Both of these focused on algorithmic trading in various domains, including Cryptocurrency, Stock Markets, and Sports Betting. I have also worked on an extensive list of machine learning projects outside of my PhD research, such as classifying CT scans for idiopathic pulmonary fibrosis, identifying fake news, developing Bayesian tools for phase 1 drug trials, detecting toxic text, and classifying videos as fake news.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In my spare time. I enjoy rock climbing, cycling, disc golf, spending time with my friends, cooking (but mostly eating the food I cook!) and board games. 

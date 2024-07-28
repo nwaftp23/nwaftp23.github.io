@@ -3,111 +3,60 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@article{berryshedding,
+  title={Shedding Light on Large Generative Networks: Estimating Epistemic Uncertainty in Diffusion Models},
+  author={Berry, Lucas and Brando, Axel and Meger, David},
+  journal={The 40th Conference on Uncertainty in Artificial Intelligence},
+  abbr={UAI},
+  selected={true},
+  year={2024},
+  pdf={https://arxiv.org/pdf/2406.18580v1},
+  code={https://github.com/nwaftp23/DECU},
+  arxiv={2406.18580v1},
+  abstract={Generative diffusion models, notable for their large parameter count (exceeding 100 million) and operation within high-dimensional image spaces, pose significant challenges for traditional uncertainty estimation methods due to computational demands. In this work, we introduce an innovative framework, Diffusion Ensembles for Capturing Uncertainty (DECU), designed for estimating epistemic uncertainty for diffusion models. The DECU framework introduces a novel method that efficiently trains ensembles of conditional diffusion models by incorporating a static set of pre-trained parameters, drastically reducing the computational burden and the number of parameters that require training. Additionally, DECU employs Pairwise-Distance Estimators (PaiDEs) to accurately measure epistemic uncertainty by evaluating the mutual information between model outputs and weights in high-dimensional spaces. The effectiveness of this framework is demonstrated through experiments on the ImageNet dataset, highlighting its capability to capture epistemic uncertainty, specifically in under-sampled image classes.},
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+
+
+
+@article{lotfi2023uncertainty,
+  title={Uncertainty-aware hybrid paradigm of nonlinear MPC and model-based RL for offroad navigation: Exploration of transformers in the predictive model},
+  author={Lotfi, Faraz and Virji, Khalil and Faraji, Farnoosh and Berry, Lucas and Holliday, Andrew and Meger, David and Dudek, Gregory},
+  journal={arXiv preprint arXiv:2310.00760},
+  year={2024},
+  abbr={ICRA},
+  pdf={https://arxiv.org/pdf/2310.00760},
+  selected={true},
+  arxiv={2310.00760},
+  code={https://github.com/FARAZLOTFI/offroad_autonomous_navigation/},
+  abstract={In this paper, we investigate a hybrid scheme that combines nonlinear model predictive control (MPC) and model-based reinforcement learning (RL) for navigation planning of an autonomous model car across offroad, unstructured terrains without relying on predefined maps. Our innovative approach takes inspiration from BADGR, an LSTM-based network that primarily concentrates on environment modeling, but distinguishes itself by substituting LSTM modules with transformers to greatly elevate the performance our model. Addressing uncertainty within the system, we train an ensemble of predictive models and estimate the mutual information between model weights and outputs, facilitating dynamic horizon planning through the introduction of variable speeds. Further enhancing our methodology, we incorporate a nonlinear MPC controller that accounts for the intricacies of the vehicle's model and states. The model-based RL facet produces steering angles and quantifies inherent uncertainty. At the same time, the nonlinear MPC suggests optimal throttle settings, striking a balance between goal attainment speed and managing model uncertainty influenced by velocity. In the conducted studies, our approach excels over the existing baseline by consistently achieving higher metric values in predicting future events and seamlessly integrating the vehicle's kinematic model for enhanced decision-making. The code and the evaluation data are available at https://github.com/FARAZLOTFI/offroad_autonomous_navigation/).},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
+@article{berry2023escaping,
+  title={Efficient Epistemic Uncertainty Estimation in Regression Ensemble Models Using Pairwise-Distance Estimators},
+  author={Berry, Lucas and Meger, David},
+  journal={arXiv preprint arXiv:2308.13498},
+  year={2023},
+  pdf={https://arxiv.org/pdf/2308.13498},
+  selected={true},
+  arxiv={2308.13498},
+  abstract={This work introduces an efficient novel approach for epistemic uncertainty estimation for ensemble models for regression tasks using pairwise-distance estimators (PaiDEs). Utilizing the pairwise-distance between model components, these estimators establish bounds on entropy. We leverage this capability to enhance the performance of Bayesian Active Learning by Disagreement (BALD). Notably, unlike sample-based Monte Carlo estimators, PaiDEs exhibit a remarkable capability to estimate epistemic uncertainty at speeds up to 100 times faster while covering a significantly larger number of inputs at once and demonstrating superior performance in higher dimensions. To validate our approach, we conducted a varied series of regression experiments on commonly used benchmarks: 1D sinusoidal data, Pendulum, Hopper, Ant and Humanoid. For each experimental setting, an active learning framework was applied to demonstrate the advantages of PaiDEs for epistemic uncertainty estimation. We compare our approach to existing active learning methods and find that our approach outperforms on high-dimensional regression tasks.},
+}
+
+@inproceedings{berry2023normalizing,
+  title={Normalizing flow ensembles for rich aleatoric and epistemic uncertainty modeling},
+  author={Berry, Lucas and Meger, David},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={37},
   number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+  pages={6806--6814},
+  year={2023},
+  abbr={AAAI},
+  pdf={https://arxiv.org/pdf/2302.01312},
+  selected={true},
+  oral={true},
+  arxiv={2302.01312},
+  code={https://github.com/nwaftp23/nflows_epistemic},
+  abstract={In this work, we demonstrate how to reliably estimate epistemic uncertainty while maintaining the flexibility needed to capture complicated aleatoric distributions. To this end, we propose an ensemble of Normalizing Flows (NF), which are state-of-the-art in modeling aleatoric uncertainty. The ensembles are created via sets of fixed dropout masks, making them less expensive than creating separate NF models. We demonstrate how to leverage the unique structure of NFs, base distributions, to estimate aleatoric uncertainty without relying on samples, provide a comprehensive set of baselines, and derive unbiased estimates for differential entropy. The methods were applied to a variety of experiments, commonly used to benchmark aleatoric and epistemic uncertainty estimation: 1D sinusoidal data, 2D windy grid-world (Wet Chicken), Pendulum, and Hopper. In these experiments, we setup an active learning framework and evaluate each model’s capability at measuring aleatoric and epistemic uncertainty. The results show the advantages of using NF ensembles in capturing complicated aleatoric while maintaining accurate epistemic uncertainty estimates.},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
-}

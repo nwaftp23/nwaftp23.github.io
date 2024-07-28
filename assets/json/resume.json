@@ -1,28 +1,27 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
+    "name": "Lucas Berry",
+    "email": "lucasdberry@gmail.com",
+    "phone": "(310) 570-6909",
+    "url": "https://nwaftp23.github.io/",
+    "location": Montreal, Canada 
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "Lucas Berry",
+        "url": "https://www.linkedin.com/in/lucas-berry-86291878/"
       }
     ]
   },
-  "work": [
+  "Education": [
+	{
+      "institution": "McGill University",
+      "location": "Montreal, QC",
+      "area": "Uncertainty Estimation, Normalizing Flows, Diffusion Models",
+      "studyType": "Doctorate of Philosophy in Computer Science",
+      "endDate": "Expected December 2024",
+      "courses": ["Theory of Relativity"]
+    },
     {
       "name": "Institute for Advanced Study, Princeton University",
       "position": "Professor of Theoretical Physics",
@@ -151,12 +150,12 @@
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "English",
       "fluency": "Native speaker",
       "icon": ""
     },
     {
-      "language": "English",
+      "language": "French",
       "fluency": "Fluent",
       "icon": ""
     }

@@ -11,3 +11,4 @@ assets/libs/
 node_modules/
 vendor
 .idea
+run_website_locally.sh
